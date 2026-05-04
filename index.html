@@ -128,5 +128,23 @@
   <p>© 2026 Kateryna Martynova-Kvitna</p>
 </footer>
 
+<div id="popup" class="popup-overlay" style="display:none;">
+  <div class="popup-box">
+    <p>🌸 Елліно, дякую за ваш час та підтримку! Цей сайт — результат вашого навчання. ✨</p>
+    <button onclick="document.getElementById('popup').style.display='none'">Закрити</button>
+  </div>
+</div>
+
+<script>
+  window.addEventListener('load', function() {
+    document.getElementById('popup').style.display = 'flex';
+    setTimeout(() => {
+      document.getElementById('popup').style.display = 'none';
+    }, 5000);
+  });
+</script>
+
    </body>
+
+
 </html>
