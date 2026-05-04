@@ -2,6 +2,8 @@ body {
   margin: 0;
   font-family: Cambria, serif;
   background-color: #F5F5F5;
+  
+ 
 }
 
 .header {
@@ -50,7 +52,7 @@ body {
 
 .subtitle {
   text-align: center;
-  color: 	#1E90FF;
+  color: 		#4169E1;
   font-weight: normal;
   margin-top: 0;
 }
@@ -61,7 +63,9 @@ body {
 }
 
 .content {
-  margin-left: 300px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 40px;
 }
 
 .contacts_wrapper {
@@ -71,6 +75,47 @@ body {
 .myContacts {
   display: inline-block;
   text-align: left;
+}
+
+.itemHeader{
+  font-family: Cambria, serif ;
+  font-weight: bold;
+  font-size: 40;
+  color: 	#4169E1 ;
+  border-bottom: 2px solid #4169E1;
+  padding-bottom: 8px;
+  width: fit-content;
+}
+
+p {
+
+  font-size: 16px;
+
+}
+li {
+  font-size: 16px;
+}
+
+.tools {
+   font-size: 14px;
+   font-style: italic;
+   color: #708090;
+}
+
+.jobTitle {
+  font-size: 25;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 2px solid #333;
+  color: white;
+  font-size: 14px;
+  background-color: #333;
 }
 
 
